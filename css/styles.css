@@ -1,0 +1,44 @@
+@import url(normalize.css);
+@import url(reset.css);
+
+/* Estilos generales */
+
+body {
+    background-image: url('../img/FondoDados.png');
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    background-color: rgb(255, 234, 237);
+}
+
+.zonaDado {
+    width: 200px;
+    height: 200px;
+
+    background-image: url('../img/Dados1D6.png');
+    background-position: 0px center; 
+    transition: background-position 0.3s ease-in-out;
+    filter: drop-shadow(0px 0px 10px rgb(255, 255, 255));
+
+    /* Dado 1 = 0px */
+    /* Dado 2 = -350px */
+    /* Dado 3 = -700px */
+    /* Dado 4 = -1050px */
+    /* Dado 5 = -1400px */
+    /* Dado 6 = -1750px */
+}
+
+/* Botón */
+.btn {
+    padding: 15px 30px;
+    font-size: 28px;
+    color: #fff;
+    background-color: #f998bb;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    user-select: none;
+}
